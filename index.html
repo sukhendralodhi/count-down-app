@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Countdown App</title>
+    <!-- css  -->
+    <link rel="stylesheet" href="css/style.css" />
+    <!-- tailwind css -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- google font  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DynaPuff&family=Montserrat:wght@400;500&family=Mouse+Memoirs&family=Roboto+Condensed&family=Roboto:wght@400;900&family=Square+Peg&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <main
+      class="w-full h-screen bg-[url('hh.jpg')] bg-center bg-cover bg-no-repeat "
+    >
+      <div class="w-full h-full bg-[rgba(0,0,0,0.7)] flex items-center flex-col">
+        <div class="text-white text-3xl text-center font-['DynaPuff'] pt-4 uppercase">We are coming soon</div>
+        <div id="endDate" class="text-white text-3xl text-center font-['DynaPuff'] mt-4">20 August 2022 10:00 AM</div>
+
+        <!-- column -->
+        <div class="w-9/12 flex mt-8 text-white justify-center">
+          <div class="w-64 text-center">
+            <input class="w-2/4 h-12 rounded-md bg-slate-100 border-transparent border-none text-black text-center text-2xl" type="text" name="" id="" readonly value="0"> <br>
+            <label for="">Days</label>
+          </div>
+          <div class="w-64 text-center">
+            <input class="w-2/4 h-12 rounded-md bg-slate-100 border-transparent border-none text-black text-center text-2xl" type="text" name="" id="" readonly value="0"> <br>
+            <label for="">Hours</label>
+          </div>
+          <div class="w-64 text-center">
+            <input class="w-2/4 h-12 rounded-md bg-slate-100 border-transparent border-none text-black text-center text-2xl" type="text" name="" id="" readonly value="0"> <br>
+            <label for="">Minutes</label>
+          </div>
+          <div class="w-64 text-center">
+            <input class="w-2/4 h-12 rounded-md bg-slate-100 border-transparent border-none text-black text-center text-2xl" type="text" name="" id="" readonly value="0"> <br>
+            <label for="">Seconds</label>
+          </div>
+        </div>
+      </div>
+    </main>
+    <script src="js/script.js"></script>
+  </body>
+</html>
